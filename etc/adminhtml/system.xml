@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="punchout_cookie2" 
+                 translate="label" 
+                 type="text" 
+                 sortOrder="400" 
+                 showInDefault="1" 
+                 showInWebsite="1" 
+                 showInStore="1">
+            <class>separator-top</class>
+            <label>Cookie2</label>
+            <tab>punchout_gateway</tab>
+            <resource>Punchout_Gateway::config_punchout_gateway</resource>
+
+            <group id="general" 
+                   translate="label" 
+                   type="text" 
+                   sortOrder="100" 
+                   showInDefault="1" 
+                   showInWebsite="1" 
+                   showInStore="1">
+
+                <label>Punchout Cookie2</label>
+
+                <field id="module_version" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="0" showInStore="0" canRestore="0">
+                    <label>Module Version</label>
+                    <frontend_model>Punchout\Cookie2\Block\Adminhtml\System\Config\Form\Field\Version</frontend_model>
+                </field>
+
+            </group>
+        </section>
+    </system>
+</config>
