@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="Punchout_Cookie2" setup_version="0.3.3">
+    <module name="Punchout_Cookie2" setup_version="0.3.4">
         <sequence>
+            <module name="Punchout_Gateway"/>
             <module name="Magento_Framework" />
             <module name="Magento_Cookie" />
         </sequence>
